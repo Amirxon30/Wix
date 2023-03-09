@@ -1,0 +1,155 @@
+@font-face{
+    font-family: Avenir-light;
+    src: url(../fonts/Avenir\ Light.ttf);
+}
+@font-face{
+    font-family: Work-Sans-semibold;
+    src: url(../fonts/WorkSans-SemiBold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #EEEEEE;
+}
+header{
+    padding: 20px 47px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: Work-Sans-semibold;
+    font-size: 22px;
+    color: #000000;
+}
+.logo-box{
+    width: 25px;
+    height: 25px;
+    background-color: goldenrod;
+    border-radius: 50%;
+}
+.logo span{
+    font-family: Avenir-light;
+    font-size: 16px;
+    color: #000000;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: Avenir-light;
+    font-size: 16px;
+    color: #000000;
+}
+.navbar ul li:nth-last-child(2) a{
+    padding: 2px 20px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.content{
+    padding: 200px 0px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    border-radius: 50%;
+}
+.right{
+    width: 370px;
+}
+.right .title{
+    font-family: Work-Sans-semibold;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+.right .title2{
+    font-family: Work-Sans-semibold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.right .desc{
+    font-family: Avenir-light;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+.btns{
+    display: flex;
+    gap: 40px;
+}
+.btns div{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    transition: all 0.7s;
+}
+.btns div:hover{
+    background-color: #EEEEEE;
+}
+.btns a{
+    text-decoration: none;
+    font-family: Work-Sans-semibold;
+    font-size: 22px;
+    color: #000000;
+}
+.btns a:nth-child(1) div{
+    background-color: #eea302
+}
+.btns a:nth-child(2) div{
+    background-color: #ff3b25;
+}
+.btns a:nth-child(3) div{
+    background-color: #80d8da;
+}
+.footer-links{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links-title{
+    font-family: Work-Sans-semibold;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.footer-links-desc{
+    font-family: Avenir-light;
+    font-size: 16px;
+}
+.footer-links-desc a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-links-desc ul{
+    display: flex;
+    gap: 10px;
+}
+.footer-links-desc ul li{
+    list-style: none;
+}
+.privacy{
+    font-family: Avenir-light;
+    font-size: 13px;
+}
+.privacy-desc a{
+    color: #000000;
+}
